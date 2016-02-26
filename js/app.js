@@ -174,7 +174,7 @@ var allEnemies = [];
 for (var i = 0; i < 5; i++) {
   var aSpeed = Math.floor(Math.random() * 4 + 1) * 60;
   allEnemies.push(new Enemy(-80, 60 + 80 * i, aSpeed));
- // allEnemies.push(new Enemy(-80, 60 + 80 * i, aSpeed));
+ allEnemies.push(new Enemy(-80, 60 + 80 * i, aSpeed));
  // allEnemies.push(new Enemy(-80, 60 + 80 * i, aSpeed));
 }
 // Place the player object in a variable called player
